@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | OmniAIMinds</title><meta name="description" content="OmniAIMinds — AI, cybersecurity, software engineering, automation and digital technology solutions.">
+<link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" aria-label="OmniAIMinds home"><img class="logo" src="assets/logo-horizontal-solid.png" alt="OmniAIMinds"></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Solutions</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="careers.html">Careers</a>
+      <a class="active" href="contact.html">Contact</a>
+      <a class="nav-cta" href="contact.html">Talk to an Expert</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container reveal"><div class="kicker">CONTACT</div><h1>Let's talk.</h1><p>Tell us about your technology, cybersecurity, AI or software challenge. We will review your requirements and get back to you.</p></div></section>
+<section class="section"><div class="container">
+ <div class="grid-2">
+  <div class="card reveal">
+   <div class="eyebrow">Send us a message</div><h2>Start a conversation.</h2>
+   <p style="color:var(--muted)">Use the form and your email application will open with the enquiry prepared for our team.</p>
+   <form class="form" onsubmit="return handleContactForm(this)">
+    <div class="field"><label>Full Name *</label><input required name="name" placeholder="Your name"></div>
+    <div class="field"><label>Work Email *</label><input required type="email" name="email" placeholder="you@company.com"></div>
+    <div class="field"><label>Company</label><input name="company" placeholder="Company name"></div>
+    <div class="field"><label>Service of Interest</label><select name="service"><option value="">Select a service…</option><option>Cybersecurity Advisory</option><option>Custom Software Development</option><option>AI & ML Solutions</option><option>Automation & DevOps</option><option>Digital Platforms</option><option>Emerging Technologies</option><option>General Inquiry</option></select></div>
+    <div class="field"><label>Message *</label><textarea required name="message" placeholder="Tell us about your challenge..."></textarea></div>
+    <button class="btn btn-primary" type="submit">Prepare Email →</button>
+   </form>
+   <div class="notice" style="margin-top:16px">The current static version uses your email client rather than a server-side form. This means it can be deployed directly on standard GoDaddy hosting without a backend.</div>
+  </div>
+  <div class="reveal">
+   <div class="card"><div class="eyebrow">Get in touch</div><h3>Enterprise enquiries</h3><p>For business, technology, AI and cybersecurity enquiries:</p><p><a style="color:var(--blue);font-weight:800" href="mailto:hello@ominiaiminds.com">hello@ominiaiminds.com</a></p></div>
+   <div class="card" style="margin-top:20px"><div class="eyebrow">Location</div><h3>Singapore</h3><p>Singapore-based technology company serving businesses and enterprises across markets.</p></div>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/logo-horizontal-solid.png" alt="OmniAIMinds">
+        <p>Engineering the future. Securing the now. AI-powered technology solutions for the enterprise.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="services.html#cybersecurity">Cybersecurity Advisory</a>
+        <a href="services.html#software">Software Development</a>
+        <a href="services.html#ai">AI & ML Solutions</a>
+        <a href="services.html#automation">Automation & DevOps</a>
+        <a href="services.html#platforms">Digital Platforms</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Solutions</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="mailto:hello@ominiaiminds.com">hello@ominiaiminds.com</a>
+        <p>Enterprise inquiries welcome.</p>
+        <a href="contact.html">Start a conversation →</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> OmniAIMinds. All rights reserved.</span>
+      <span><a href="privacy.html" style="display:inline">Privacy Policy</a> · <a href="terms.html" style="display:inline">Terms of Service</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/site.js"></script></body></html>
